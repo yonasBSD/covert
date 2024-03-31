@@ -26,3 +26,10 @@ sqlx = { version = "0.6", features = ["chrono", "time", "runtime-tokio-native-tl
 thiserror = "1.0"
 tracing-error = "0.1"
 uuid = { version = "0.8", features = ["serde", "v4"] }
+
+
+[dependencies.openssl]
+version = "0.10"
+features = [
+    "vendored"
+]
